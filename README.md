@@ -9,13 +9,12 @@ A full-featured **Java Swing + MySQL** GUI application built with **Apache NetBe
 - [About the Project](#about-the-project)  
 - [Features](#features)  
 - [Tech Stack](#tech-stack)  
-- [Project Structure](#project-structure)  
 - [Installation](#installation)  
 - [Database Setup](#database-setup)  
 - [Running the Application](#running-the-application)  
 - [Usage Guide](#usage-guide)  
 - [Screenshots](#screenshots) 
-
+- [Project Structure](#project-structure)  
 ---
 
 ## 📝 About the Project
@@ -55,44 +54,15 @@ This Airline Management System is a desktop application developed using Java Swi
 
 ---
 
-## 🗂 Project Structure
-
-```text
-Airline_Management_System/
-│
-├── src/
-│   └── airline/
-│       ├── Conn.java             # Database connection handler  
-│       ├── Login.java            # Login screen  
-│       ├── Home.java             # Dashboard  
-│       ├── AddCustomer.java      # Passenger registration  
-│       ├── FlightInfo.java       # Flight CRUD  
-│       ├── BookFlight.java       # Ticket booking  
-│       ├── JourneyDetails.java   # Display booked trips  
-│       ├── Payment.java          # Payment screen  
-│       ├── Cancel.java           # Ticket cancellation  
-│       └── BoardingPass.java     # Boarding pass generation  
-
-├── lib/                          # External JAR dependencies  
-│   ├── mysql-connector-java.jar  
-│   └── rs2xml.jar  
-
-├── mysql_commands.txt           # SQL scripts for database setup  
-├── nbproject/                   # NetBeans project files  
-├── build.xml                    # Ant build file  
-├── manifest.mf                  # Project manifest  
-└── README.md                    # This documentation file
-
-
 ## 💾 Installation
 
 Follow these steps to set up and run the project on your local machine:
 
 ### 1. Clone the Repository
 
-```bash
-git clone https://github.com/Omkar7840/Airline_Management_System.git
-cd Airline_Management_System
+
+`git clone https://github.com/Omkar7840/Airline_Management_System.git
+cd Airline_Management_System`
 
 ## 🛢️ Database Setup
 
@@ -102,8 +72,8 @@ cd Airline_Management_System
 
 3. Execute the `mysql_commands.txt` script to create the `airline` database and its necessary tables:
 
-```sql
-SOURCE path/to/mysql_commands.txt;
+
+`SOURCE path/to/mysql_commands.txt;`
 
 
 ## ▶️ Running the Application
@@ -143,4 +113,37 @@ SOURCE path/to/mysql_commands.txt;
 
 
 
+
+
+---
+
+## 🗂 Project Structure
+
+```text
+Airline_Management_System/
+│
+├── src/
+│   └── airline/
+│       ├── Conn.java             # Database connection handler  
+│       ├── Login.java            # Login screen  
+│       ├── Home.java             # Dashboard  
+│       ├── AddCustomer.java      # Passenger registration  
+│       ├── FlightInfo.java       # Flight CRUD  
+│       ├── BookFlight.java       # Ticket booking  
+│       ├── JourneyDetails.java   # Display booked trips  
+│       ├── Payment.java          # Payment screen  
+│       ├── Cancel.java           # Ticket cancellation  
+│       └── BoardingPass.java     # Boarding pass generation  
+
+├── lib/                          # External JAR dependencies  
+│   ├── mysql-connector-java.jar  
+│   └── rs2xml.jar  
+
+├── mysql_commands.txt           # SQL scripts for database setup  
+├── nbproject/                   # NetBeans project files  
+├── build.xml                    # Ant build file  
+├── manifest.mf                  # Project manifest  
+└── README.md                    # This documentation file
+
+---
 
